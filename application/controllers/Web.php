@@ -5,6 +5,7 @@ class Web extends CI_controller
     {
         //code...
         parent::_construct();
+        $this->load->helper('url');
     }
     public function index()
     {
@@ -14,9 +15,10 @@ class Web extends CI_controller
         $this->load->view('v_footer',$data);
     }
     public function about()
-    {$data['judul']="Halaman About";
-    $this->load->view('v_header',$data); 
-    $this->load->view('v_about',$data);
-    $this->load->view('v_footer',$data);  
+    {
+        $data['judul']="Halaman About";
+        $this->load->view('v_header',$data); 
+        $this->load->view('v_about',$data);
+        $this->load->view('v_footer',$data);  
     }
 }
