@@ -36,3 +36,35 @@ Total                   : Rp $total
 </html>
 
  <center>
+
+
+
+
+ <tr> 
+    <td>                   
+ <?               
+echo"nmpemesan       : $nmpemesan<br>";
+echo"Jdlfilm     : $jdlfilm<br>";
+echo"jam       : $jam<br>";
+echo"tipe      : $tipe<br>";
+echo"jmlpesan          :$jmlpesan<br>";
+echo"tarifsewa     : rp $tarifsewa<br>";
+echo"total        : rp $total<br>";
+        ?>
+        </td>
+            </tr>
+
+
+            <tr> 
+            <td>                   
+         <?               
+        echo"nmpemesan       : $nmpemesan<br>";
+        echo"Jdlfilm     : $jdlfilm<br>";
+        echo"jam       : $jam<br>";
+        echo"tipe      : $tipe<br>";
+        echo"jmlpesan          :$jmlpesan<br>";
+        echo"tarifsewa     : rp $tarifsewa<br>";
+        echo"total        : rp $total<br>";
+                ?>
+                </td>
+                    </tr>
