@@ -27,7 +27,7 @@
 
   </style>
     <a class="nav-link pb-0" href="<?= base_url('Buku/kategori'); ?>">
-       <i class="fas fa-book-open"></i>
+    <i class="fas fa-wind"></i>
         <span>Kategori Buku</span></a>
 </li>
 
@@ -37,13 +37,13 @@
 
       </style>
         <a class="nav-link pb-0" href="<?= base_url('buku'); ?>">
-           <i class="fas fa-book"></i>
+        <i class="fas fa-window-maximize"></i>
             <span>Data Buku</span></a>
     </li>
 
     <li class="nav-item">
         <a class="nav-link pb-0" href="<?= base_url('user/anggota'); ?>">
-            <i class="fas fa-users"></i>
+        <i class="fas fa-users-slash"></i>
             <span>Data Anggota</span></a>
     </li>
 
